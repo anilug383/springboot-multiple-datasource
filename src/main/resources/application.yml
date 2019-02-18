@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: multiple-ds
+  profileservice:
+    driverName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/profileservice
+    username: root
+    password: root
+  taskservice:
+    driverName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/taskservice
+    username: root
+    password: root     
